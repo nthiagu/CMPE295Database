@@ -1,3 +1,15 @@
+-- ____________________________________________________
+-- The following scripts are required to be run for sanity 
+-- check when the initial data is created in the AWS database 
+--  for SmartRetail App.  
+--
+--  Author Name : Thiagarajan Natarajan 
+--  Date        : 24 Feb 2016
+--  Script Name : new_count.sql
+-- ____________________________________________________
+-- Host: 127.0.0.1    Database: G5CMPE295
+-- ------------------------------------------------------
+-- Server version	5.7.9
 SELECT COUNT(*) N_AISLE_COUNT FROM G5CMPE295.N_AISLE;
 SELECT COUNT(*) N_OFFERS_COUNT FROM G5CMPE295.N_OFFERS;
 SELECT COUNT(*) N_PROD_STORE_COUNT FROM G5CMPE295.N_PROD_STORE;
@@ -9,5 +21,8 @@ SELECT COUNT(*) N_PRODUCT_COUNT FROM G5CMPE295.N_PRODUCT;
 SELECT COUNT(*) N_PROD_CLASS_COUNT FROM G5CMPE295.N_PRODUCT_CLASS;
 SELECT COUNT(*) N_SALES_COUNT FROM G5CMPE295.N_SALES_FACT_1997;
 SELECT COUNT(*) N_TIMEBYDAY_COUNT FROM G5CMPE295.N_TIME_BY_DAY;
-SELECT COUNT(*) N_POSTXN_COUNT FROM G5CMPE295.N_POS_TXN;
+-- SELECT COUNT(*) N_POSTXN_COUNT FROM G5CMPE295.N_POS_TXN;
+SELECT COUNT(*) N_DEPT_COUNT FROM G5CMPE295.N_ALL_DEPT_PDT; -- 905 rows 
+SELECT COUNT(*) N_PROD_COUNT FROM G5CMPE295.N_AVAIL_PRODUCTS;  -- 76rows 
+SELECT COUNT(*) N_222POSTXN_COUNT FROM G5CMPE295.N_POS_TXN_2;
 
