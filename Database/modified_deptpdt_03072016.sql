@@ -57,9 +57,9 @@ CREATE TABLE `N_ALL_DEPT_PDT` (
   `shelf_height` double DEFAULT NULL,
   `shelf_depth` double DEFAULT NULL,
   `product_price` double DEFAULT NULL,
-  `product_img1_url` varchar(45) DEFAULT NULL,
-  `product_img2_url` varchar(45) DEFAULT NULL,
-  `product_img3_url` varchar(45) DEFAULT NULL
+  `product_img1_url` varchar(500) DEFAULT NULL,
+  `product_img2_url` varchar(500) DEFAULT NULL,
+  `product_img3_url` varchar(500) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -104,9 +104,9 @@ CREATE TABLE `N_AVAIL_PRODUCTS` (
   `shelf_height` double DEFAULT NULL,
   `shelf_depth` double DEFAULT NULL,
   `product_price` double DEFAULT NULL,
-  `product_img1_url` varchar(45) DEFAULT NULL,
-  `product_img2_url` varchar(45) DEFAULT NULL,
-  `product_img3_url` varchar(45) DEFAULT NULL
+  `product_img1_url` varchar(500) DEFAULT NULL,
+  `product_img2_url` varchar(500) DEFAULT NULL,
+  `product_img3_url` varchar(500) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
