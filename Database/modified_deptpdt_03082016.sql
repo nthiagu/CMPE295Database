@@ -1,5 +1,17 @@
 -- MySQL dump 10.13  Distrib 5.7.9, for osx10.9 (x86_64)
+---- ____________________________________________________
+-- The following scripts are required to filter the 
+-- required departments to be displayed in the 
+-- SmartRetail App.  
+-- Included addtional fields in the Dept table ( 905) rows 
+-- and also the same fields in the Available products ( 76) rows 
+-- Ran an update on fields like SRP, Shelf etc .... 
+-- Made changes to product desc to be of size 1000 chars
 --
+--  Author Name : Thiagarajan Natarajan 
+--  Date        : 08 March 2016
+--  Script Name : modified_deptpdt_03072016.sql
+-- ____________________________________________________
 -- Host: 127.0.0.1    Database: G5CMPE295
 -- ------------------------------------------------------
 -- Server version	5.7.9
