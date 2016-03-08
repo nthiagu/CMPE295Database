@@ -10,7 +10,7 @@
 --
 --  Author Name : Thiagarajan Natarajan 
 --  Date        : 08 March 2016
---  Script Name : modified_deptpdt_03072016.sql
+--  Script Name : modified_deptpdt_03082016.sql
 -- ____________________________________________________
 -- Host: 127.0.0.1    Database: G5CMPE295
 -- ------------------------------------------------------
