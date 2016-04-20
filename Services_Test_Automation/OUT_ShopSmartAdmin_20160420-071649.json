@@ -1,0 +1,219 @@
+-------------------------------------------------------------------------------------------
+200 307ms http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=cmpe295&password=sjsu [GET] http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=cmpe295&password=sjsu
+------------------------------------------------------------
+Request headers:
+{
+ "host": "ec2-54-153-9-205.us-west-1.compute.amazonaws.com",
+ "accept-encoding": "gzip"
+}
+Request data:
+null
+------------------------------------------------------------
+Response headers:
+{
+ "date": "Wed, 20 Apr 2016 14:17:03 GMT",
+ "server": "Apache/2.4.7 (Ubuntu)",
+ "vary": "Cookie",
+ "x-frame-options": "SAMEORIGIN",
+ "set-cookie": [
+  "csrftoken=qAN9cNkmfzmw21MfNhrqiFWlSFdMHDbS; expires=Wed, 19-Apr-2017 14:17:03 GMT; Max-Age=31449600; Path=/",
+  "sessionid=dnzg66b95eg0bb7heagjsbqxzcc7zhg1; expires=Wed, 04-May-2016 14:17:03 GMT; httponly; Max-Age=1209600; Path=/"
+ ],
+ "connection": "close",
+ "transfer-encoding": "chunked",
+ "content-type": "application/json"
+}
+Response body:
+{"status": "success", "username": "cmpe295", "id": 1, "email": "cmpe295@abc.com"}
+-------------------------------------------------------------------------------------------
+200 157ms http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=cmpe295&password=ABCD [GET] http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=cmpe295&password=ABCD
+------------------------------------------------------------
+Request headers:
+{
+ "host": "ec2-54-153-9-205.us-west-1.compute.amazonaws.com",
+ "cookie": "csrftoken=qAN9cNkmfzmw21MfNhrqiFWlSFdMHDbS; sessionid=dnzg66b95eg0bb7heagjsbqxzcc7zhg1",
+ "accept-encoding": "gzip"
+}
+Request data:
+null
+------------------------------------------------------------
+Response headers:
+{
+ "date": "Wed, 20 Apr 2016 14:17:04 GMT",
+ "server": "Apache/2.4.7 (Ubuntu)",
+ "vary": "Cookie",
+ "x-frame-options": "SAMEORIGIN",
+ "set-cookie": [
+  "csrftoken=qAN9cNkmfzmw21MfNhrqiFWlSFdMHDbS; expires=Wed, 19-Apr-2017 14:17:04 GMT; Max-Age=31449600; Path=/"
+ ],
+ "connection": "close",
+ "transfer-encoding": "chunked",
+ "content-type": "application/json"
+}
+Response body:
+{"status": "error: invalid credentials"}
+-------------------------------------------------------------------------------------------
+200 67ms http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offer/? [GET] http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offer/?
+------------------------------------------------------------
+Request headers:
+{
+ "host": "ec2-54-153-9-205.us-west-1.compute.amazonaws.com",
+ "cookie": "csrftoken=qAN9cNkmfzmw21MfNhrqiFWlSFdMHDbS; sessionid=dnzg66b95eg0bb7heagjsbqxzcc7zhg1",
+ "accept-encoding": "gzip"
+}
+Request data:
+null
+------------------------------------------------------------
+Response headers:
+{
+ "date": "Wed, 20 Apr 2016 14:17:04 GMT",
+ "server": "Apache/2.4.7 (Ubuntu)",
+ "vary": "Accept,Cookie",
+ "x-frame-options": "SAMEORIGIN",
+ "allow": "GET, POST, HEAD, OPTIONS",
+ "connection": "close",
+ "transfer-encoding": "chunked",
+ "content-type": "application/json"
+}
+Response body:
+[{"offer_id":0,"offer_start_date":"2016-03-02","offer_end_date":"2016-04-30","offer_creator":"","offer_type":"","offer_desc":"Come avail the offer","offer_title":"Produce Offer","offer_img_url":"http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/media/o_produce_offer_3BTsLyV.png","offer_img":"","offer_customer_class":"","offer_customer_id":null,"offer_sensor_id":null,"offer_attr1":"94086","offer_attr2":"SS50","offer_attr3":50,"offer_attr4":null,"offer_attr5":null,"offer_attr6":null,"offer_product":10,"offer_product_class":null},{"offer_id":1,"offer_start_date":"2016-03-05","offer_end_date":"2016-04-27","offer_creator":"","offer_type":"","offer_desc":"Please avail the offer","offer_title":"Grocery Offer","offer_img_url":"http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/media/o_grocery_offer_s1SxYx0.jpg","offer_img":"","offer_customer_class":"","offer_customer_id":null,"offer_sensor_id":null,"offer_attr1":"94087","offer_attr2":"SS20","offer_attr3":20,"offer_attr4":null,"offer_attr5":null,"offer_attr6":null,"offer_product":8,"offer_product_class":null},{"offer_id":4,"offer_start_date":"2016-04-15","offer_end_date":"2016-05-27","offer_creator":"","offer_type":"","offer_desc":"There is an exciting offer on produce item this summer.Get 20% off on all items","offer_title":"Produce Offer","offer_img_url":"http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/media/produceoffer.jpg","offer_img":"","offer_customer_class":"","offer_customer_id":null,"offer_sensor_id":null,"offer_attr1":"95134","offer_attr2":"SM20","offer_attr3":20,"offer_attr4":null,"offer_attr5":null,"offer_attr6":null,"offer_product":10,"offer_product_class":null},{"offer_id":5,"offer_start_date":"2016-04-05","offer_end_date":"2016-05-28","offer_creator":"","offer_type":"","offer_desc":"Get a 10%off on all Beverages items. Hurry Up ! Offer Valid till May 2016","offer_title":"Beverages Offer","offer_img_url":"http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/media/bevoffer.jpg","offer_img":"","offer_customer_class":"","offer_customer_id":null,"offer_sensor_id":null,"offer_attr1":"95134","offer_attr2":"SM10","offer_attr3":10,"offer_attr4":null,"offer_attr5":null,"offer_attr6":null,"offer_product":8,"offer_product_class":null},{"offer_id":6,"offer_start_date":"2016-04-13","offer_end_date":"2016-05-31","offer_creator":"","offer_type":"","offer_desc":"Avail an exciting 20%off on all Frozen Food items","offer_title":"Frozen Foods Offer","offer_img_url":"http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/media/ffoffer.jpg","offer_img":"","offer_customer_class":"","offer_customer_id":null,"offer_sensor_id":null,"offer_attr1":"95134","offer_attr2":"SM20","offer_attr3":20,"offer_attr4":null,"offer_attr5":null,"offer_attr6":null,"offer_product":10,"offer_product_class":null}]
+-------------------------------------------------------------------------------------------
+200 68ms http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offer/? [GET] http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offer/?
+------------------------------------------------------------
+Request headers:
+{
+ "host": "ec2-54-153-9-205.us-west-1.compute.amazonaws.com",
+ "cookie": "csrftoken=qAN9cNkmfzmw21MfNhrqiFWlSFdMHDbS; sessionid=dnzg66b95eg0bb7heagjsbqxzcc7zhg1",
+ "accept-encoding": "gzip"
+}
+Request data:
+null
+------------------------------------------------------------
+Response headers:
+{
+ "date": "Wed, 20 Apr 2016 14:17:04 GMT",
+ "server": "Apache/2.4.7 (Ubuntu)",
+ "vary": "Accept,Cookie",
+ "x-frame-options": "SAMEORIGIN",
+ "allow": "GET, POST, HEAD, OPTIONS",
+ "connection": "close",
+ "transfer-encoding": "chunked",
+ "content-type": "application/json"
+}
+Response body:
+[{"offer_id":0,"offer_start_date":"2016-03-02","offer_end_date":"2016-04-30","offer_creator":"","offer_type":"","offer_desc":"Come avail the offer","offer_title":"Produce Offer","offer_img_url":"http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/media/o_produce_offer_3BTsLyV.png","offer_img":"","offer_customer_class":"","offer_customer_id":null,"offer_sensor_id":null,"offer_attr1":"94086","offer_attr2":"SS50","offer_attr3":50,"offer_attr4":null,"offer_attr5":null,"offer_attr6":null,"offer_product":10,"offer_product_class":null},{"offer_id":1,"offer_start_date":"2016-03-05","offer_end_date":"2016-04-27","offer_creator":"","offer_type":"","offer_desc":"Please avail the offer","offer_title":"Grocery Offer","offer_img_url":"http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/media/o_grocery_offer_s1SxYx0.jpg","offer_img":"","offer_customer_class":"","offer_customer_id":null,"offer_sensor_id":null,"offer_attr1":"94087","offer_attr2":"SS20","offer_attr3":20,"offer_attr4":null,"offer_attr5":null,"offer_attr6":null,"offer_product":8,"offer_product_class":null},{"offer_id":4,"offer_start_date":"2016-04-15","offer_end_date":"2016-05-27","offer_creator":"","offer_type":"","offer_desc":"There is an exciting offer on produce item this summer.Get 20% off on all items","offer_title":"Produce Offer","offer_img_url":"http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/media/produceoffer.jpg","offer_img":"","offer_customer_class":"","offer_customer_id":null,"offer_sensor_id":null,"offer_attr1":"95134","offer_attr2":"SM20","offer_attr3":20,"offer_attr4":null,"offer_attr5":null,"offer_attr6":null,"offer_product":10,"offer_product_class":null},{"offer_id":5,"offer_start_date":"2016-04-05","offer_end_date":"2016-05-28","offer_creator":"","offer_type":"","offer_desc":"Get a 10%off on all Beverages items. Hurry Up ! Offer Valid till May 2016","offer_title":"Beverages Offer","offer_img_url":"http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/media/bevoffer.jpg","offer_img":"","offer_customer_class":"","offer_customer_id":null,"offer_sensor_id":null,"offer_attr1":"95134","offer_attr2":"SM10","offer_attr3":10,"offer_attr4":null,"offer_attr5":null,"offer_attr6":null,"offer_product":8,"offer_product_class":null},{"offer_id":6,"offer_start_date":"2016-04-13","offer_end_date":"2016-05-31","offer_creator":"","offer_type":"","offer_desc":"Avail an exciting 20%off on all Frozen Food items","offer_title":"Frozen Foods Offer","offer_img_url":"http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/media/ffoffer.jpg","offer_img":"","offer_customer_class":"","offer_customer_id":null,"offer_sensor_id":null,"offer_attr1":"95134","offer_attr2":"SM20","offer_attr3":20,"offer_attr4":null,"offer_attr5":null,"offer_attr6":null,"offer_product":10,"offer_product_class":null}]
+-------------------------------------------------------------------------------------------
+200 59ms http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/freqpurcust/?cust=769 [GET] http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/freqpurcust/?cust=769
+------------------------------------------------------------
+Request headers:
+{
+ "host": "ec2-54-153-9-205.us-west-1.compute.amazonaws.com",
+ "cookie": "csrftoken=qAN9cNkmfzmw21MfNhrqiFWlSFdMHDbS; sessionid=dnzg66b95eg0bb7heagjsbqxzcc7zhg1",
+ "accept-encoding": "gzip"
+}
+Request data:
+null
+------------------------------------------------------------
+Response headers:
+{
+ "date": "Wed, 20 Apr 2016 14:17:04 GMT",
+ "server": "Apache/2.4.7 (Ubuntu)",
+ "x-frame-options": "SAMEORIGIN",
+ "connection": "close",
+ "transfer-encoding": "chunked",
+ "content-type": "application/json;charset=utf8"
+}
+Response body:
+[["Better Canned String Beans\n\nBooker 1% Milk\n\nChoice Malted Milk Balls\n\nColony Blueberry Muffins\n\nEbony Walnuts\n\nEven Better Low Fat Sour Cream\n\nJardon Manicotti\n\nPleasant Turkey Noodle Soup\n\nToucan Canned Mixed Fruit"]]
+-------------------------------------------------------------------------------------------
+200 58ms http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/freqpurcust/?cust=0&format=json [GET] http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/freqpurcust/?cust=0&format=json
+------------------------------------------------------------
+Request headers:
+{
+ "host": "ec2-54-153-9-205.us-west-1.compute.amazonaws.com",
+ "cookie": "csrftoken=qAN9cNkmfzmw21MfNhrqiFWlSFdMHDbS; sessionid=dnzg66b95eg0bb7heagjsbqxzcc7zhg1",
+ "accept-encoding": "gzip"
+}
+Request data:
+null
+------------------------------------------------------------
+Response headers:
+{
+ "date": "Wed, 20 Apr 2016 14:17:04 GMT",
+ "server": "Apache/2.4.7 (Ubuntu)",
+ "x-frame-options": "SAMEORIGIN",
+ "connection": "close",
+ "transfer-encoding": "chunked",
+ "content-type": "application/json;charset=utf8"
+}
+Response body:
+[[""]]
+-------------------------------------------------------------------------------------------
+200 746ms http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/nextinbasket/?cust=769&productName=Gum&format=json [GET] http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/nextinbasket/?cust=769&productName=Gum&format=json
+------------------------------------------------------------
+Request headers:
+{
+ "host": "ec2-54-153-9-205.us-west-1.compute.amazonaws.com",
+ "cookie": "csrftoken=qAN9cNkmfzmw21MfNhrqiFWlSFdMHDbS; sessionid=dnzg66b95eg0bb7heagjsbqxzcc7zhg1",
+ "accept-encoding": "gzip"
+}
+Request data:
+null
+------------------------------------------------------------
+Response headers:
+{
+ "date": "Wed, 20 Apr 2016 14:17:05 GMT",
+ "server": "Apache/2.4.7 (Ubuntu)",
+ "x-frame-options": "SAMEORIGIN",
+ "connection": "close",
+ "transfer-encoding": "chunked",
+ "content-type": "application/json;charset=utf8"
+}
+Response body:
+[["Moms Chicken Hot Dogs\n\nBest Corn Puffs\n\nExcellent Apple Drink\n\nEbony Fuji Apples\n\nPleasant Turkey Noodle Soup\n\nCarlson Low Fat String Cheese\n\nCDR Pepper\n\nGood White Zinfandel Wine\n\nEven Better Low Fat Sour Cream\n\nPlato Decaf Coffee\n\nClub Chocolate Milk\n\nBest Choice Raisins\n\nSuper Grape Preserves\n\nDenny Paper Towels\n\nChoice Spicy Mints\n\nBetter Canned Tuna in Oil\n\nGolden Frozen Cheese Pizza\n\nNationeel Corn Chips\n\nDenny Tissues\n\nLandslide Decaf Coffee\n\nEbony Walnuts\n\nBooker 1% Milk\n\nBetter Canned Peas\n\nPleasant Turkey Noodle Soup\n\nRed Wing Bees Wax Candles\n\nSpecial Corn Puffs\n\nBird Call Buffered Aspirin\n\nHigh Quality Soft Napkins\n\nGulf Coast Mint Chocolate Bar\n\nSunset Scented Tissue\n\nMonarch Ravioli\n\nToucan Canned Mixed Fruit\n\nCutting Edge Turkey Hot Dogs\n\nCormorant Scented Tissue\n\nTell Tale Oranges\n\nColony Blueberry Muffins\n\nHermanos Tangerines\n\nCormorant 75 Watt Lightbulb\n\nBest Choice Low Fat BBQ Chips\n\nBetter Canned String Beans\n\nSteady Tartar Control Toothpaste\n\nNationeel Raspberry Fruit Roll\n\nJardon Manicotti\n\nCDR Apple Jam\n\nGreat Muffins\n\nShady Lake Thai Rice\n\nBest Oatmeal\n\nEbony Walnuts\n\nPleasant Beef Soup\n\nGulf Coast Semi-Sweet Chocolate Bar\n\nCDR Low Fat Apple Butter\n\nGood Light Beer\n\nEven Better Low Fat Sour Cream\n\nCarrington Popsicles\n\nDenny Large Sponge\n\nHilltop Whitening Toothpast\n\nToucan Canned Mixed Fruit\n\nHigh Quality Bees Wax Candles\n\nJardon Manicotti\n\nSunset Silver Cleaner\n\nDiscover Thai Rice\n\nBooker Sour Cream\n\nFramton City Map\n\nGolden Orange Popsicles\n\nColony Blueberry Muffins\n\nPigTail Chicken TV Dinner\n\nFaux Products Angled Toothbrush\n\nBooker 1% Milk\n\nBooker Muenster Cheese\n\nGolden Frozen Sausage Pizza\n\nLandslide Brown Sugar\n\nPigTail Lime Popsicles\n\nFaux Products 200 MG Acetominifen\n\nLake Pimento Loaf\n\nSpecial Oatmeal\n\nBig Time Turkey TV Dinner\n\nRed Spade Pimento Loaf\n\nGorilla Chocolate Milk\n\nUrban Large Eggs\n\nMoms Foot-Long Hot Dogs\n\nBetter Canned String Beans\n\nDenny 25 Watt Lightbulb\n\nChoice Malted Milk Balls\n\nBetter Beef Soup\n\nGolden Fajita French Fries\n\nCurlew Scallops\n\nDenny Soft Napkins\n\nBig Time Ice Cream\n\nImagine Popsicles\n\nColony Rye Bread\n\nLandslide Tomato Sauce\n\nFast Dried Apples\n\nImagine Low Fat Waffles\n\nChoice Malted Milk Balls\n\nSuper Extra Chunky Peanut Butter\n\nSuper Low Fat Apple Butter\n\nEbony Fancy Plums\n\nHermanos Plums\n\nSuper Columbian Coffee"]]
+-------------------------------------------------------------------------------------------
+200 81ms http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/nextinbasket/?cust=0&productName=Gum [GET] http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/nextinbasket/?cust=0&productName=Gum
+------------------------------------------------------------
+Request headers:
+{
+ "host": "ec2-54-153-9-205.us-west-1.compute.amazonaws.com",
+ "cookie": "csrftoken=qAN9cNkmfzmw21MfNhrqiFWlSFdMHDbS; sessionid=dnzg66b95eg0bb7heagjsbqxzcc7zhg1",
+ "accept-encoding": "gzip"
+}
+Request data:
+null
+------------------------------------------------------------
+Response headers:
+{
+ "date": "Wed, 20 Apr 2016 14:17:05 GMT",
+ "server": "Apache/2.4.7 (Ubuntu)",
+ "x-frame-options": "SAMEORIGIN",
+ "connection": "close",
+ "transfer-encoding": "chunked",
+ "content-type": "application/json;charset=utf8"
+}
+Response body:
+[[""]]
+-------------------------------------------------------------------------------------------
+200 198ms http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/shelfsugglist/?format=json [GET] http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/shelfsugglist/?format=json
+------------------------------------------------------------
+Request headers:
+{
+ "host": "ec2-54-153-9-205.us-west-1.compute.amazonaws.com",
+ "cookie": "csrftoken=qAN9cNkmfzmw21MfNhrqiFWlSFdMHDbS; sessionid=dnzg66b95eg0bb7heagjsbqxzcc7zhg1",
+ "accept-encoding": "gzip"
+}
+Request data:
+null
+------------------------------------------------------------
+Response headers:
+{
+ "date": "Wed, 20 Apr 2016 14:17:05 GMT",
+ "server": "Apache/2.4.7 (Ubuntu)",
+ "x-frame-options": "SAMEORIGIN",
+ "connection": "close",
+ "transfer-encoding": "chunked",
+ "content-type": "application/json;charset=utf8"
+}
+Response body:
+[["Big Time Frozen Broccoli,Token Apple Drink"], ["Carrington Apple Cinnamon Waffles,BBB Best Canola Oil,PigTail Frozen Broccoli,Medalist Manicotti"], ["Discover Ravioli,Big Time Grape Popsicles"], ["Fabulous Strawberry Drink,Hermanos Peaches,Better Chicken Noodle Soup"], ["Fast Strawberry Fruit Roll,Steady Childrens Cold Remedy"], ["American Sliced Chicken,BBB Best Sesame Oil,Big Time Orange Popsicles"], ["Amigo Scallops,Token Diet Cola,Horatio Cheese Crackers"], ["Atomic Malted Milk Balls,Thresher Mint Chocolate Bar"], ["BBB Best Columbian Coffee,Hilltop Laundry Detergent"], ["BBB Best French Roast Coffee,Carrington Ice Cream,Fast Beef Jerky,Musial White Chocolate Bar,Even Better Low Fat Sour Cream,Musial Mint Chocolate Bar,Golden Orange Popsicles"], ["BBB Best Low Fat Apple Butter,Red Wing AAA-Size Batteries,Amigo Scallops,CDR Brown Sugar,Colony Wheat Bread"], ["BBB Best Oregano,Booker Buttermilk"], ["BBB Best Pepper,Thresher Tasty Candy Bar,PigTail Frozen Sausage Pizza,Shady Lake Thai Rice"], ["BBB Best Regular Coffee,Hilltop 200 MG Ibuprofen"], ["BBB Best Sesame Oil,Super French Roast Coffee"]]

@@ -1,0 +1,303 @@
+-------------------------------------------------------------------------------------------
+200 385ms http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=jessie&password=123 [GET] http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=jessie&password=123
+------------------------------------------------------------
+Request headers:
+{
+ "host": "ec2-54-153-9-205.us-west-1.compute.amazonaws.com",
+ "accept-encoding": "gzip"
+}
+Request data:
+null
+------------------------------------------------------------
+Response headers:
+{
+ "date": "Wed, 20 Apr 2016 14:17:00 GMT",
+ "server": "Apache/2.4.7 (Ubuntu)",
+ "vary": "Cookie",
+ "x-frame-options": "SAMEORIGIN",
+ "set-cookie": [
+  "csrftoken=bNFUS9LcXFdxlP6kQul2QgCxH2GYtDOX; expires=Wed, 19-Apr-2017 14:17:00 GMT; Max-Age=31449600; Path=/",
+  "sessionid=cex8le9oy6nnup2taovhhyjpljds0n8x; expires=Wed, 04-May-2016 14:17:00 GMT; httponly; Max-Age=1209600; Path=/"
+ ],
+ "connection": "close",
+ "transfer-encoding": "chunked",
+ "content-type": "application/json"
+}
+Response body:
+{"status": "success", "username": "jessie", "id": 33, "email": "abc@def.com"}
+-------------------------------------------------------------------------------------------
+200 150ms http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=jessie&password=XYZ [GET] http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=jessie&password=XYZ
+------------------------------------------------------------
+Request headers:
+{
+ "host": "ec2-54-153-9-205.us-west-1.compute.amazonaws.com",
+ "cookie": "csrftoken=bNFUS9LcXFdxlP6kQul2QgCxH2GYtDOX; sessionid=cex8le9oy6nnup2taovhhyjpljds0n8x",
+ "accept-encoding": "gzip"
+}
+Request data:
+null
+------------------------------------------------------------
+Response headers:
+{
+ "date": "Wed, 20 Apr 2016 14:17:01 GMT",
+ "server": "Apache/2.4.7 (Ubuntu)",
+ "vary": "Cookie",
+ "x-frame-options": "SAMEORIGIN",
+ "set-cookie": [
+  "csrftoken=bNFUS9LcXFdxlP6kQul2QgCxH2GYtDOX; expires=Wed, 19-Apr-2017 14:17:01 GMT; Max-Age=31449600; Path=/"
+ ],
+ "connection": "close",
+ "transfer-encoding": "chunked",
+ "content-type": "application/json"
+}
+Response body:
+{"status": "error: invalid credentials"}
+-------------------------------------------------------------------------------------------
+200 52ms http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/store/1/?format=json [GET] http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/store/1/?format=json
+------------------------------------------------------------
+Request headers:
+{
+ "host": "ec2-54-153-9-205.us-west-1.compute.amazonaws.com",
+ "cookie": "csrftoken=bNFUS9LcXFdxlP6kQul2QgCxH2GYtDOX; sessionid=cex8le9oy6nnup2taovhhyjpljds0n8x",
+ "accept-encoding": "gzip"
+}
+Request data:
+null
+------------------------------------------------------------
+Response headers:
+{
+ "date": "Wed, 20 Apr 2016 14:17:01 GMT",
+ "server": "Apache/2.4.7 (Ubuntu)",
+ "vary": "Accept,Cookie",
+ "x-frame-options": "SAMEORIGIN",
+ "allow": "GET, PUT, PATCH, DELETE, HEAD, OPTIONS",
+ "connection": "close",
+ "transfer-encoding": "chunked",
+ "content-type": "application/json"
+}
+Response body:
+{"store_id":1,"store_name":"Target","store_desc":null,"store_address1":"298 W McKinley Ave Sunnyvale 94086","store_address2":null,"store_city":"Sunnyvale","store_state":null,"store_zipcode":"94087","store_phone":"408-111-2555","store_url":"http://grocerystore.com","store_email":"info@gcstore.com","store_attr1":null,"store_attr2":null,"store_attr3":null,"store_attr4":null,"store_attr5":null,"store_attr6":null}
+-------------------------------------------------------------------------------------------
+404 63ms  http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/store/9/?format=json [GET]  http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/store/9/?format=json
+------------------------------------------------------------
+Request headers:
+{
+ "host": "ec2-54-153-9-205.us-west-1.compute.amazonaws.com",
+ "cookie": "csrftoken=bNFUS9LcXFdxlP6kQul2QgCxH2GYtDOX; sessionid=cex8le9oy6nnup2taovhhyjpljds0n8x",
+ "accept-encoding": "gzip"
+}
+Request data:
+null
+------------------------------------------------------------
+Response headers:
+{
+ "date": "Wed, 20 Apr 2016 14:17:01 GMT",
+ "server": "Apache/2.4.7 (Ubuntu)",
+ "vary": "Accept,Cookie",
+ "x-frame-options": "SAMEORIGIN",
+ "allow": "GET, PUT, PATCH, DELETE, HEAD, OPTIONS",
+ "connection": "close",
+ "transfer-encoding": "chunked",
+ "content-type": "application/json"
+}
+Response body:
+{"detail":"Not found."}
+-------------------------------------------------------------------------------------------
+200 62ms http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/customer/33/?format=json [GET] http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/customer/33/?format=json
+------------------------------------------------------------
+Request headers:
+{
+ "host": "ec2-54-153-9-205.us-west-1.compute.amazonaws.com",
+ "cookie": "csrftoken=bNFUS9LcXFdxlP6kQul2QgCxH2GYtDOX; sessionid=cex8le9oy6nnup2taovhhyjpljds0n8x",
+ "accept-encoding": "gzip"
+}
+Request data:
+null
+------------------------------------------------------------
+Response headers:
+{
+ "date": "Wed, 20 Apr 2016 14:17:01 GMT",
+ "server": "Apache/2.4.7 (Ubuntu)",
+ "vary": "Accept,Cookie",
+ "x-frame-options": "SAMEORIGIN",
+ "allow": "GET, PUT, PATCH, DELETE, HEAD, OPTIONS",
+ "connection": "close",
+ "transfer-encoding": "chunked",
+ "content-type": "application/json"
+}
+Response body:
+{"customer":33,"account_num":null,"lname":null,"fname":null,"mi":null,"address1":"123BlossomAve","address2":null,"address3":null,"address4":null,"city":null,"state_province":null,"postal_code":"95123","country":null,"customer_region_id":null,"phone1":"4081234567","phone2":null,"birthdate":"1990-01-01","marital_status":null,"yearly_income":null,"gender":"Female","total_children":null,"num_children_at_home":null,"education":null,"date_accnt_opened":null,"member_card":null,"occupation":null,"houseowner":null,"num_cars_owned":null,"fullname":null}
+-------------------------------------------------------------------------------------------
+404 67ms http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/customer/999/?format=json [GET] http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/customer/999/?format=json
+------------------------------------------------------------
+Request headers:
+{
+ "host": "ec2-54-153-9-205.us-west-1.compute.amazonaws.com",
+ "cookie": "csrftoken=bNFUS9LcXFdxlP6kQul2QgCxH2GYtDOX; sessionid=cex8le9oy6nnup2taovhhyjpljds0n8x",
+ "accept-encoding": "gzip"
+}
+Request data:
+null
+------------------------------------------------------------
+Response headers:
+{
+ "date": "Wed, 20 Apr 2016 14:17:01 GMT",
+ "server": "Apache/2.4.7 (Ubuntu)",
+ "vary": "Accept,Cookie",
+ "x-frame-options": "SAMEORIGIN",
+ "allow": "GET, PUT, PATCH, DELETE, HEAD, OPTIONS",
+ "connection": "close",
+ "transfer-encoding": "chunked",
+ "content-type": "application/json"
+}
+Response body:
+{"detail":"Not found."}
+-------------------------------------------------------------------------------------------
+200 184ms http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/products/Soda/?format=json [GET] http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/products/Soda/?format=json
+------------------------------------------------------------
+Request headers:
+{
+ "host": "ec2-54-153-9-205.us-west-1.compute.amazonaws.com",
+ "cookie": "csrftoken=bNFUS9LcXFdxlP6kQul2QgCxH2GYtDOX; sessionid=cex8le9oy6nnup2taovhhyjpljds0n8x",
+ "accept-encoding": "gzip"
+}
+Request data:
+null
+------------------------------------------------------------
+Response headers:
+{
+ "date": "Wed, 20 Apr 2016 14:17:01 GMT",
+ "server": "Apache/2.4.7 (Ubuntu)",
+ "vary": "Accept,Cookie",
+ "x-frame-options": "SAMEORIGIN",
+ "allow": "GET, HEAD, OPTIONS",
+ "connection": "close",
+ "transfer-encoding": "chunked",
+ "content-type": "application/json"
+}
+Response body:
+[{"product_id":7,"product_class_id":19,"product_department":"Beverages","product_subcategory":"Soda","product_name":"Washington Diet Cola","sku":20191444754,"brand_name":"Washington","prod_attr1":"","prod_attr2":"","prod_attr3":1,"prod_attr4":null,"product_desc":"It's a perfect combination of whether you are interested in finding your flavor or you are just interested in mixing it up","srp":"2.61","gross_weight":18.0,"net_weight":17.0,"recyclable_package":1,"low_fat":0,"units_per_case":11,"cases_per_pallet":7,"shelf_width":15.0,"shelf_height":16.9,"shelf_depth":21.0,"product_price":null,"product_img1_url":"http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/media/7.jpg","product_img2_url":null,"product_img3_url":null},{"product_id":316,"product_class_id":19,"product_department":"Beverages","product_subcategory":"Soda","product_name":"Excellent Diet Soda","sku":77309675812,"brand_name":"Excellent","prod_attr1":"","prod_attr2":"","prod_attr3":1,"prod_attr4":null,"product_desc":"Flavors in variety pack include diet black cherry, diet cherry vanilla cream, diet root beer and diet tangerine lime","srp":"1.31","gross_weight":7.28,"net_weight":5.28,"recyclable_package":1,"low_fat":0,"units_per_case":22,"cases_per_pallet":9,"shelf_width":16.8,"shelf_height":4.27,"shelf_depth":21.6,"product_price":null,"product_img1_url":"http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/media/316.jpg","product_img2_url":null,"product_img3_url":null}]
+-------------------------------------------------------------------------------------------
+200 706ms http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/products/CellPhone/?format=json [GET] http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/products/CellPhone/?format=json
+------------------------------------------------------------
+Request headers:
+{
+ "host": "ec2-54-153-9-205.us-west-1.compute.amazonaws.com",
+ "cookie": "csrftoken=bNFUS9LcXFdxlP6kQul2QgCxH2GYtDOX; sessionid=cex8le9oy6nnup2taovhhyjpljds0n8x",
+ "accept-encoding": "gzip"
+}
+Request data:
+null
+------------------------------------------------------------
+Response headers:
+{
+ "date": "Wed, 20 Apr 2016 14:17:02 GMT",
+ "server": "Apache/2.4.7 (Ubuntu)",
+ "vary": "Accept,Cookie",
+ "x-frame-options": "SAMEORIGIN",
+ "allow": "GET, HEAD, OPTIONS",
+ "connection": "close",
+ "transfer-encoding": "chunked",
+ "content-type": "application/json"
+}
+Response body:
+[]
+-------------------------------------------------------------------------------------------
+200 51ms http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/depts/?format=json [GET] http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/depts/?format=json
+------------------------------------------------------------
+Request headers:
+{
+ "host": "ec2-54-153-9-205.us-west-1.compute.amazonaws.com",
+ "cookie": "csrftoken=bNFUS9LcXFdxlP6kQul2QgCxH2GYtDOX; sessionid=cex8le9oy6nnup2taovhhyjpljds0n8x",
+ "accept-encoding": "gzip"
+}
+Request data:
+null
+------------------------------------------------------------
+Response headers:
+{
+ "date": "Wed, 20 Apr 2016 14:17:02 GMT",
+ "server": "Apache/2.4.7 (Ubuntu)",
+ "x-frame-options": "SAMEORIGIN",
+ "connection": "close",
+ "transfer-encoding": "chunked",
+ "content-type": "application/json;charset=utf8"
+}
+Response body:
+[["Baked Goods"], ["Beverages"], ["Canned Foods"], ["Dairy"], ["Frozen Foods"], ["Health and Hygiene"], ["Produce"], ["Snacks"]]
+-------------------------------------------------------------------------------------------
+200 143ms http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/reset_password/?username=jessie&new_password=123 [GET] http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/reset_password/?username=jessie&new_password=123
+------------------------------------------------------------
+Request headers:
+{
+ "host": "ec2-54-153-9-205.us-west-1.compute.amazonaws.com",
+ "cookie": "csrftoken=bNFUS9LcXFdxlP6kQul2QgCxH2GYtDOX; sessionid=cex8le9oy6nnup2taovhhyjpljds0n8x",
+ "accept-encoding": "gzip"
+}
+Request data:
+null
+------------------------------------------------------------
+Response headers:
+{
+ "date": "Wed, 20 Apr 2016 14:17:02 GMT",
+ "server": "Apache/2.4.7 (Ubuntu)",
+ "x-frame-options": "SAMEORIGIN",
+ "connection": "close",
+ "transfer-encoding": "chunked",
+ "content-type": "application/json"
+}
+Response body:
+{"status": "success"}
+-------------------------------------------------------------------------------------------
+200 85ms http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offernearby/94102/?format=json [GET] http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offernearby/94102/?format=json
+------------------------------------------------------------
+Request headers:
+{
+ "host": "ec2-54-153-9-205.us-west-1.compute.amazonaws.com",
+ "cookie": "csrftoken=bNFUS9LcXFdxlP6kQul2QgCxH2GYtDOX; sessionid=cex8le9oy6nnup2taovhhyjpljds0n8x",
+ "accept-encoding": "gzip"
+}
+Request data:
+null
+------------------------------------------------------------
+Response headers:
+{
+ "date": "Wed, 20 Apr 2016 14:17:02 GMT",
+ "server": "Apache/2.4.7 (Ubuntu)",
+ "vary": "Accept",
+ "x-frame-options": "SAMEORIGIN",
+ "allow": "GET, HEAD, OPTIONS",
+ "set-cookie": [
+  "sessionid=; expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0; Path=/"
+ ],
+ "connection": "close",
+ "transfer-encoding": "chunked",
+ "content-type": "application/json"
+}
+Response body:
+[]
+-------------------------------------------------------------------------------------------
+200 54ms http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offernearby/94000/?format=json [GET] http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offernearby/94000/?format=json
+------------------------------------------------------------
+Request headers:
+{
+ "host": "ec2-54-153-9-205.us-west-1.compute.amazonaws.com",
+ "cookie": "csrftoken=bNFUS9LcXFdxlP6kQul2QgCxH2GYtDOX",
+ "accept-encoding": "gzip"
+}
+Request data:
+null
+------------------------------------------------------------
+Response headers:
+{
+ "date": "Wed, 20 Apr 2016 14:17:02 GMT",
+ "server": "Apache/2.4.7 (Ubuntu)",
+ "vary": "Accept,Cookie",
+ "x-frame-options": "SAMEORIGIN",
+ "allow": "GET, HEAD, OPTIONS",
+ "connection": "close",
+ "transfer-encoding": "chunked",
+ "content-type": "application/json"
+}
+Response body:
+[]
