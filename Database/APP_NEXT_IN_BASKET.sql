@@ -50,7 +50,8 @@ BEGIN
 
 	  	DECLARE bl_count INT DEFAULT 0;
   		DECLARE bl_product_name VARCHAR(200) DEFAULT NULL ;
-        	DECLARE cursor_b CURSOR FOR SELECT COUNT(*),PRODUCT_NAME FROM G5CMPE295.N_POS_TXN where customer_id = l_cust_id and product_name = tmp_prd_name and trans_id IN (select trans_id from G5CMPE295.N_POS_TXN where customer_id = l_cust_id and product_name = l_prd_name) ;
+       -- 	DECLARE cursor_b CURSOR FOR SELECT COUNT(*),PRODUCT_NAME FROM G5CMPE295.N_POS_TXN a where a.customer_id = l_cust_id and a.product_name = tmp_prd_name and a.trans_id IN (select trans_id from G5CMPE295.N_POS_TXN where customer_id = l_cust_id and product_name = l_prd_name and a.time_id = time_id ) ;
+        	DECLARE cursor_b CURSOR FOR SELECT COUNT(*),PRODUCT_NAME FROM G5CMPE295.N_POS_TXN a where a.customer_id = l_cust_id and a.product_name = tmp_prd_name and a.trans_id IN (select trans_id from G5CMPE295.N_POS_TXN where customer_id = l_cust_id and product_name = l_prd_name ) ;
         	DECLARE CONTINUE HANDLER FOR NOT FOUND SET done2 = TRUE;	
 
 		   OPEN cursor_b;
