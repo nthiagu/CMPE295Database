@@ -1,0 +1,636 @@
+[38;5;33m[4m
+Iteration 1 of 5
+[24m[39m[32m200[39m[36m 336ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=jessie&password=123 [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=jessie&password=123
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 119ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=jessie&password=XYZ [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=jessie&password=XYZ
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 36ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/store/1/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/store/1/?format=json
+[24m[39m[32m    ✔ Response time is less than 1500ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Body is not null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[31m404[39m[36m 39ms[39m[37m  http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/store/9/?format=json [39m[36m[GET] [39m[38;5;245m[4m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/store/9/?format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Status code is 404
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 48ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/customer/33/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/customer/33/?format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body is not null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[31m404[39m[36m 65ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/customer/999/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/customer/999/?format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Status code is 404
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 42ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/products/Soda/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/products/Soda/?format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Body is not null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 46ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/products/CellPhone/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/products/CellPhone/?format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body is not null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 38ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/depts/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/depts/?format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body is not null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 119ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/reset_password/?username=jessie&new_password=123 [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/reset_password/?username=jessie&new_password=123
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Body is not null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 61ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offernearby/95134/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offernearby/95134/?format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body has string
+[39m[32m    ✔ Body is not null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 31ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offernearby/94000/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offernearby/94000/?format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 404
+[39m[32m    ✔ Body is null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[37m
+Summary:
+
+[39m[37mParent                   	Pass Count	 FailCount
+[39m[37m-------------------------------------------------------------
+[39m[37mCollection ShopSmartCu...	[39m[32m        52	[39m[31m         0
+[39m[37m
+[39m[37mTotal                    	[39m[32m        52	[39m[31m         0
+[39m[38;5;33m[4m
+Iteration 2 of 5
+[24m[39m[32m200[39m[36m 169ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=jessie&password=123 [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=jessie&password=123
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 127ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=jessie&password=XYZ [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=jessie&password=XYZ
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 52ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/store/1/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/store/1/?format=json
+[24m[39m[32m    ✔ Response time is less than 1500ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Body is not null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[31m404[39m[36m 38ms[39m[37m  http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/store/9/?format=json [39m[36m[GET] [39m[38;5;245m[4m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/store/9/?format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Status code is 404
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 67ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/customer/33/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/customer/33/?format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body is not null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[31m404[39m[36m 39ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/customer/999/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/customer/999/?format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Status code is 404
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 43ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/products/Soda/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/products/Soda/?format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Body is not null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 43ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/products/CellPhone/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/products/CellPhone/?format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body is not null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 33ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/depts/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/depts/?format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body is not null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 122ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/reset_password/?username=jessie&new_password=123 [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/reset_password/?username=jessie&new_password=123
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Body is not null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 56ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offernearby/95134/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offernearby/95134/?format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body has string
+[39m[32m    ✔ Body is not null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 34ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offernearby/94000/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offernearby/94000/?format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 404
+[39m[32m    ✔ Body is null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[37m
+Summary:
+
+[39m[37mParent                   	Pass Count	 FailCount
+[39m[37m-------------------------------------------------------------
+[39m[37mCollection ShopSmartCu...	[39m[32m        52	[39m[31m         0
+[39m[37m
+[39m[37mTotal                    	[39m[32m        52	[39m[31m         0
+[39m[38;5;33m[4m
+Iteration 3 of 5
+[24m[39m[32m200[39m[36m 168ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=jessie&password=123 [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=jessie&password=123
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 117ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=jessie&password=XYZ [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=jessie&password=XYZ
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 42ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/store/1/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/store/1/?format=json
+[24m[39m[32m    ✔ Response time is less than 1500ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Body is not null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[31m404[39m[36m 39ms[39m[37m  http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/store/9/?format=json [39m[36m[GET] [39m[38;5;245m[4m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/store/9/?format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Status code is 404
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 43ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/customer/33/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/customer/33/?format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body is not null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[31m404[39m[36m 35ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/customer/999/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/customer/999/?format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Status code is 404
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 49ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/products/Soda/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/products/Soda/?format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Body is not null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 48ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/products/CellPhone/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/products/CellPhone/?format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body is not null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 30ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/depts/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/depts/?format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body is not null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 136ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/reset_password/?username=jessie&new_password=123 [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/reset_password/?username=jessie&new_password=123
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Body is not null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 55ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offernearby/95134/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offernearby/95134/?format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body has string
+[39m[32m    ✔ Body is not null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 48ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offernearby/94000/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offernearby/94000/?format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 404
+[39m[32m    ✔ Body is null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[37m
+Summary:
+
+[39m[37mParent                   	Pass Count	 FailCount
+[39m[37m-------------------------------------------------------------
+[39m[37mCollection ShopSmartCu...	[39m[32m        52	[39m[31m         0
+[39m[37m
+[39m[37mTotal                    	[39m[32m        52	[39m[31m         0
+[39m[38;5;33m[4m
+Iteration 4 of 5
+[24m[39m[32m200[39m[36m 165ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=jessie&password=123 [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=jessie&password=123
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 115ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=jessie&password=XYZ [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=jessie&password=XYZ
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 72ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/store/1/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/store/1/?format=json
+[24m[39m[32m    ✔ Response time is less than 1500ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Body is not null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[31m404[39m[36m 44ms[39m[37m  http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/store/9/?format=json [39m[36m[GET] [39m[38;5;245m[4m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/store/9/?format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Status code is 404
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 44ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/customer/33/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/customer/33/?format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body is not null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[31m404[39m[36m 41ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/customer/999/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/customer/999/?format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Status code is 404
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 53ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/products/Soda/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/products/Soda/?format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Body is not null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 59ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/products/CellPhone/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/products/CellPhone/?format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body is not null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 34ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/depts/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/depts/?format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body is not null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 131ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/reset_password/?username=jessie&new_password=123 [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/reset_password/?username=jessie&new_password=123
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Body is not null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 99ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offernearby/95134/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offernearby/95134/?format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body has string
+[39m[32m    ✔ Body is not null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 34ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offernearby/94000/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offernearby/94000/?format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 404
+[39m[32m    ✔ Body is null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[37m
+Summary:
+
+[39m[37mParent                   	Pass Count	 FailCount
+[39m[37m-------------------------------------------------------------
+[39m[37mCollection ShopSmartCu...	[39m[32m        52	[39m[31m         0
+[39m[37m
+[39m[37mTotal                    	[39m[32m        52	[39m[31m         0
+[39m[38;5;33m[4m
+Iteration 5 of 5
+[24m[39m[32m200[39m[36m 177ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=jessie&password=123 [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=jessie&password=123
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 121ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=jessie&password=XYZ [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=jessie&password=XYZ
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 39ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/store/1/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/store/1/?format=json
+[24m[39m[32m    ✔ Response time is less than 1500ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Body is not null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[31m404[39m[36m 36ms[39m[37m  http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/store/9/?format=json [39m[36m[GET] [39m[38;5;245m[4m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/store/9/?format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Status code is 404
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 38ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/customer/33/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/customer/33/?format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body is not null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[31m404[39m[36m 34ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/customer/999/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/customer/999/?format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Status code is 404
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 37ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/products/Soda/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/products/Soda/?format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Body is not null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 37ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/products/CellPhone/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/products/CellPhone/?format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body is not null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 28ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/depts/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/depts/?format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body is not null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 123ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/reset_password/?username=jessie&new_password=123 [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/reset_password/?username=jessie&new_password=123
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Body is not null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 51ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offernearby/95134/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offernearby/95134/?format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body has string
+[39m[32m    ✔ Body is not null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 31ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offernearby/94000/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offernearby/94000/?format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 404
+[39m[32m    ✔ Body is null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[37m
+Summary:
+
+[39m[37mParent                   	Pass Count	 FailCount
+[39m[37m-------------------------------------------------------------
+[39m[37mCollection ShopSmartCu...	[39m[32m        52	[39m[31m         0
+[39m[37m
+[39m[37mTotal                    	[39m[32m        52	[39m[31m         0
+[39m[38;5;33m[4m
+Iteration 1 of 5
+[24m[39m[32m200[39m[36m 183ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=cmpe295&password=sjsu [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=cmpe295&password=sjsu
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 114ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=cmpe295&password=ABCD [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=cmpe295&password=ABCD
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 41ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offer/? [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offer/?
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 41ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offer/? [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offer/?
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 30ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/freqpurcust/?cust=769 [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/freqpurcust/?cust=769
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body is correct
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 39ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/freqpurcust/?cust=0&format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/freqpurcust/?cust=0&format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 51ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/nextinbasket/?cust=769&productName=Gum&format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/nextinbasket/?cust=769&productName=Gum&format=json
+[24m[39m[32m    ✔ Response time is less than 1500ms
+[39m[32m    ✔ Response time is less than 200ms
+[39m[32m200[39m[36m 49ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/nextinbasket/?cust=0&productName=Gum [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/nextinbasket/?cust=0&productName=Gum
+[24m[39m[32m    ✔ Response time is less than 1500ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body is NULL 
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 32ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/shelfsugglist/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/shelfsugglist/?format=json
+[24m[39m[32m    ✔ Response time is less than 1500ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body is not null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[37m
+Summary:
+
+[39m[37mParent                   	Pass Count	 FailCount
+[39m[37m-------------------------------------------------------------
+[39m[37mCollection ShopSmartAdmin	[39m[32m        34	[39m[31m         0
+[39m[37m
+[39m[37mTotal                    	[39m[32m        34	[39m[31m         0
+[39m[38;5;33m[4m
+Iteration 2 of 5
+[24m[39m[32m200[39m[36m 139ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=cmpe295&password=sjsu [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=cmpe295&password=sjsu
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 108ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=cmpe295&password=ABCD [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=cmpe295&password=ABCD
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 38ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offer/? [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offer/?
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 46ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offer/? [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offer/?
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 65ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/freqpurcust/?cust=769 [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/freqpurcust/?cust=769
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body is correct
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 30ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/freqpurcust/?cust=0&format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/freqpurcust/?cust=0&format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 102ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/nextinbasket/?cust=769&productName=Gum&format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/nextinbasket/?cust=769&productName=Gum&format=json
+[24m[39m[32m    ✔ Response time is less than 1500ms
+[39m[32m    ✔ Response time is less than 200ms
+[39m[32m200[39m[36m 76ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/nextinbasket/?cust=0&productName=Gum [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/nextinbasket/?cust=0&productName=Gum
+[24m[39m[32m    ✔ Response time is less than 1500ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body is NULL 
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 34ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/shelfsugglist/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/shelfsugglist/?format=json
+[24m[39m[32m    ✔ Response time is less than 1500ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body is not null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[37m
+Summary:
+
+[39m[37mParent                   	Pass Count	 FailCount
+[39m[37m-------------------------------------------------------------
+[39m[37mCollection ShopSmartAdmin	[39m[32m        34	[39m[31m         0
+[39m[37m
+[39m[37mTotal                    	[39m[32m        34	[39m[31m         0
+[39m[38;5;33m[4m
+Iteration 3 of 5
+[24m[39m[32m200[39m[36m 136ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=cmpe295&password=sjsu [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=cmpe295&password=sjsu
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 135ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=cmpe295&password=ABCD [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=cmpe295&password=ABCD
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 46ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offer/? [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offer/?
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 65ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offer/? [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offer/?
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 84ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/freqpurcust/?cust=769 [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/freqpurcust/?cust=769
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body is correct
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 53ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/freqpurcust/?cust=0&format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/freqpurcust/?cust=0&format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 61ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/nextinbasket/?cust=769&productName=Gum&format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/nextinbasket/?cust=769&productName=Gum&format=json
+[24m[39m[32m    ✔ Response time is less than 1500ms
+[39m[32m    ✔ Response time is less than 200ms
+[39m[32m200[39m[36m 56ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/nextinbasket/?cust=0&productName=Gum [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/nextinbasket/?cust=0&productName=Gum
+[24m[39m[32m    ✔ Response time is less than 1500ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body is NULL 
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 46ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/shelfsugglist/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/shelfsugglist/?format=json
+[24m[39m[32m    ✔ Response time is less than 1500ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body is not null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[37m
+Summary:
+
+[39m[37mParent                   	Pass Count	 FailCount
+[39m[37m-------------------------------------------------------------
+[39m[37mCollection ShopSmartAdmin	[39m[32m        34	[39m[31m         0
+[39m[37m
+[39m[37mTotal                    	[39m[32m        34	[39m[31m         0
+[39m[38;5;33m[4m
+Iteration 4 of 5
+[24m[39m[32m200[39m[36m 152ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=cmpe295&password=sjsu [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=cmpe295&password=sjsu
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 115ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=cmpe295&password=ABCD [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=cmpe295&password=ABCD
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 44ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offer/? [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offer/?
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 40ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offer/? [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offer/?
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 30ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/freqpurcust/?cust=769 [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/freqpurcust/?cust=769
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body is correct
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 39ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/freqpurcust/?cust=0&format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/freqpurcust/?cust=0&format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 44ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/nextinbasket/?cust=769&productName=Gum&format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/nextinbasket/?cust=769&productName=Gum&format=json
+[24m[39m[32m    ✔ Response time is less than 1500ms
+[39m[32m    ✔ Response time is less than 200ms
+[39m[32m200[39m[36m 45ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/nextinbasket/?cust=0&productName=Gum [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/nextinbasket/?cust=0&productName=Gum
+[24m[39m[32m    ✔ Response time is less than 1500ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body is NULL 
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 37ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/shelfsugglist/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/shelfsugglist/?format=json
+[24m[39m[32m    ✔ Response time is less than 1500ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body is not null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[37m
+Summary:
+
+[39m[37mParent                   	Pass Count	 FailCount
+[39m[37m-------------------------------------------------------------
+[39m[37mCollection ShopSmartAdmin	[39m[32m        34	[39m[31m         0
+[39m[37m
+[39m[37mTotal                    	[39m[32m        34	[39m[31m         0
+[39m[38;5;33m[4m
+Iteration 5 of 5
+[24m[39m[32m200[39m[36m 142ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=cmpe295&password=sjsu [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=cmpe295&password=sjsu
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 118ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=cmpe295&password=ABCD [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/login/?username=cmpe295&password=ABCD
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 46ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offer/? [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offer/?
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 41ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offer/? [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/offer/?
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 42ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/freqpurcust/?cust=769 [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/freqpurcust/?cust=769
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body is correct
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 42ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/freqpurcust/?cust=0&format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/freqpurcust/?cust=0&format=json
+[24m[39m[32m    ✔ Response time is less than 1000ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body matches string
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 51ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/nextinbasket/?cust=769&productName=Gum&format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/nextinbasket/?cust=769&productName=Gum&format=json
+[24m[39m[32m    ✔ Response time is less than 1500ms
+[39m[32m    ✔ Response time is less than 200ms
+[39m[32m200[39m[36m 48ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/nextinbasket/?cust=0&productName=Gum [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/nextinbasket/?cust=0&productName=Gum
+[24m[39m[32m    ✔ Response time is less than 1500ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body is NULL 
+[39m[32m    ✔ Content-Type is present
+[39m[32m200[39m[36m 50ms[39m[37m http://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/shelfsugglist/?format=json [39m[36m[GET] [39m[38;5;245m[4mhttp://ec2-54-153-9-205.us-west-1.compute.amazonaws.com/smartretailapp/api/shelfsugglist/?format=json
+[24m[39m[32m    ✔ Response time is less than 1500ms
+[39m[32m    ✔ Status code is 200
+[39m[32m    ✔ Body is not null = TRUE 
+[39m[32m    ✔ Content-Type is present
+[39m[37m
+Summary:
+
+[39m[37mParent                   	Pass Count	 FailCount
+[39m[37m-------------------------------------------------------------
+[39m[37mCollection ShopSmartAdmin	[39m[32m        34	[39m[31m         0
+[39m[37m
+[39m[37mTotal                    	[39m[32m        34	[39m[31m         0
+[39m
